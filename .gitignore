@@ -34,6 +34,8 @@
 *.nodis
 *_MODTRONIX.txt
 MODTRONIX_*.txt
+build_dist.bat
+build_dist.xml
 
 # Mercurial Repository
 # =========================
@@ -49,6 +51,25 @@ MODTRONIX_*.txt
 **/.hg/00changelog*
 **/.hg/cur-message*
 **/.hg/last-message*
+
+# SW4STM32
+# =========================
+**/.metadata
+**/RemoteSystemsTempFiles
+**/Default/Debug
+**/Default/.settings
+
+# CoIDE
+# =========================
+**/CoIDE/Default
+**/*.comarker
+**/*.cogui
+
+# MBED Library
+# =========================
+**/TOOLCHAIN_ARM_MICRO
+**/TOOLCHAIN_ARM_STD
+**/TOOLCHAIN_IAR
 
 
 # =========================
